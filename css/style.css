@@ -67,6 +67,10 @@
     margin-bottom: 0;
 }
 
+.nav-tabs .nav-item .nav-link:focus {
+    color: rgb(95, 90, 90) !important;
+}
+
 .img-working img {
     width: 100%;
 }
@@ -138,9 +142,5 @@
         width: 100%;
         height: auto;
         font-size: 15px;
-    }
-
-    .nav-tabs .nav-item .nav-link:focus {
-        color: rgb(95, 90, 90) !important;
     }
 }
