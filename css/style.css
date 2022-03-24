@@ -97,7 +97,7 @@
         height: auto;
         z-index: 999 !important;
         border: 1px solid grey;
-        margin-left: 20px;
+        margin-left: 25px;
         box-shadow: grey 5px !important;
     }
 
@@ -126,7 +126,7 @@
 
     .tabs {
         margin-top: 42rem;
-        margin-left: -79px;
+        margin-left: -75px;
     }
 
     .nav-tabs {
