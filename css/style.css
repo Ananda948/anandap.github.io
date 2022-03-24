@@ -82,3 +82,42 @@
 #project {
     margin-top: 50px;
 }
+
+@media (max-width:767px) {
+    .card-body {
+        width: 280%;
+        height: auto;
+    }
+
+    .profile-info {
+        width: 100%;
+        height: auto;
+    }
+
+    .profile-info h2 {
+        font-size: 20px;
+    }
+
+    .profile-info p {
+        font-size: 13px;
+    }
+
+    .profile-info span {
+        font-size: 13px;
+    }
+
+    .tabs {
+        margin-top: 41rem;
+        margin-left: -125px;
+    }
+
+    .nav-tabs .nav-item .nav-link {
+        width: 100%;
+        height: auto;
+        font-size: 15px;
+    }
+
+    .nav-tabs .nav-item .nav-link:focus {
+        color: rgb(95, 90, 90) !important;
+    }
+}
