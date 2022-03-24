@@ -73,6 +73,12 @@
 
 .img-working img {
     width: 100%;
+    transition: width 2s, height 4s;
+}
+
+.img-working img:hover {
+    width: 300px;
+    height: auto;
 }
 
 #working {
@@ -81,6 +87,12 @@
 
 .img-project img {
     width: 100%;
+    transition: width 2s, height 4s;
+}
+
+.img-project img:hover {
+    width: 300px;
+    height: auto;
 }
 
 #project {
@@ -142,5 +154,15 @@
         width: 100%;
         height: auto;
         font-size: 15px;
+    }
+
+    .img-working img:hover {
+        width: 100px;
+        height: auto;
+    }
+
+    .img-project img:hover {
+        width: 100px;
+        height: auto;
     }
 }
