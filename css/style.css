@@ -84,9 +84,21 @@
 }
 
 @media (max-width:767px) {
-    .card-body {
+    .navbar-brand {
+        display: none;
+    }
+
+    .card {
         width: 280%;
         height: auto;
+        z-index: 999 !important;
+        border: 1px solid grey;
+        margin-left: 8px;
+    }
+
+    .card-body {
+        background-origin: 1px solid grey;
+        z-index: 999 !important;
     }
 
     .profile-info {
@@ -107,8 +119,17 @@
     }
 
     .tabs {
-        margin-top: 41rem;
-        margin-left: -125px;
+        margin-top: 42rem;
+        margin-left: -90px;
+    }
+
+    .nav-tabs {
+        border: 1px solid grey !important;
+        border-radius: 5px;
+    }
+
+    .nav-tabs .nav-item {
+        border-color: grey;
     }
 
     .nav-tabs .nav-item .nav-link {
